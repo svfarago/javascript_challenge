@@ -28,7 +28,16 @@ Applications used:
 ### List of Files ====================
 * \javascript_challenge
 *        \UFO-level-1
-                files here
+                \static
+                    \css
+                        style.css
+                    \images
+                        nasa.jpg
+                        ufo.html
+                    \js
+                        app.js
+                        data.js
+                index.html
 *        \UFO-level-2
 *               files here
 *      README.md
@@ -36,7 +45,8 @@ Applications used:
 
 ### Operating Instructions =============
 *All pages are designed to run and interact with one another on a local machine. Web pages are not hosted on a central server.
-1. xxx
+
+1. Open \UFO-level-1\index.html in a browser
 
 
 
@@ -49,6 +59,8 @@ Applications used:
 
 ### Additional Resources =======================
 * None.
+
+Include in my readme if I use .D3 Code - credit someone else
 
 
 ###  Data Alterations =======================
