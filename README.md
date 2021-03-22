@@ -1,8 +1,8 @@
 # Javascript Challenge
-* This project uses Javascript
+* This project uses Javascript, CSS, and HTML
 
 ## ReadMe File
-* Updated: March 19 2021 | Created: March 19, 2021
+* Updated: March 21 2021 | Created: March 19, 2021
 * Copyright: open source
 
 ### License ===========================
@@ -39,7 +39,7 @@ Applications used:
                         data.js
                 index.html
 *        \UFO-level-2
-*               files here
+*               (no files here)
 *      README.md
 
 
@@ -47,20 +47,19 @@ Applications used:
 *All pages are designed to run and interact with one another on a local machine. Web pages are not hosted on a central server.
 
 1. Open \UFO-level-1\index.html in a browser
-
+2. Enter a date in "filter search" field
+3. Click "Filter Table"
+4. Matching results are pulled from data.js file
 
 
 
 ### Data Set(s) =======================
 * See also "List of Files" section above for files associated with this project.
-* Dataset provided:
-* [UFO Sightings Data](StarterCode/static/js/data.js)
+* Dataset provided: [UFO Sightings Data](StarterCode/static/js/data.js)
 
 
 ### Additional Resources =======================
 * None.
-
-Include in my readme if I use .D3 Code - credit someone else
 
 
 ###  Data Alterations =======================
@@ -77,8 +76,13 @@ Include in my readme if I use .D3 Code - credit someone else
 * Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 * Web URLs:
-- xxx
-* URLs last used: March 19, 2021
+- https://d3js.org/
+- https://observablehq.com/
+- https://github.com/d3/d3
+- https://developer.mozilla.org/en-US/docs/Web/Events
+- https://www.geeksforgeeks.org/how-to-insert-spaces-tabs-in-text-using-html-css/
+
+* URLs last used: March 21, 2021
 
 
 ###  Contact Information ===============
@@ -86,5 +90,4 @@ Colorado   United States
 
 
 ### Random Notes ===============
-This project uses Javascript
-Time to complete: approximately xx hours
+This project uses Javascript, CSS, and HTML  ||  Time to complete: approximately 3 hours
