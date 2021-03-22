@@ -42,6 +42,8 @@ form.on("submit",runEnter);
 // The event handler function for the form - it will execute everything below as part of the "filter"
 function runEnter() {
 
+    // Prevent the page from refreshing
+    d3.event.preventDefault();
 
     // Select the HTML input element based on <input class="form-control" id="datetime"
     // Will ref "datetime" in var filteredData below
