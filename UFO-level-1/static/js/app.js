@@ -24,6 +24,7 @@ sightings.forEach(function(item){
         cell.text(value);
         });
 });
+ // If console is reading data.js you will see series of {...}
 console.log(sightings);
 
 
@@ -41,15 +42,13 @@ form.on("submit",runEnter);
 // The event handler function for the form - it will execute everything below as part of the "filter"
 function runEnter() {
 
-    // Prevents the page from refreshing - code below not needed for this exercise
-    // d3.event.preventDefault();
 
     // Select the HTML input element based on <input class="form-control" id="datetime"
     // Will ref "datetime" in var filteredData below
     var inputElement = d3.select("#datetime");
 
     // Get the value property of the input element
-   // Will ref "datetime" in var filteredData below
+    // Will ref "datetime" in var filteredData below
     var inputValue = inputElement.property("value");
 
     // Clears table before displaying filtered data

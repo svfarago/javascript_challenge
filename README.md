@@ -2,7 +2,7 @@
 * This project uses Javascript, CSS, and HTML
 
 ## ReadMe File
-* Updated: March 21 2021 | Created: March 19, 2021
+* Updated: March 21, 2021 | Created: March 19, 2021
 * Copyright: open source
 
 ### License ===========================
