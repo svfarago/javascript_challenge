@@ -7,7 +7,7 @@ var tableBody=d3.select("tbody");
 // Code below also works but does not format table
 // var tableBody=d3.select("table");
 
-// For every entry in the sightings
+// For every entry in the sightings, use forEach function
 // Will ref "sightings" in var filteredData below
 sightings.forEach(function(item){
     
@@ -56,7 +56,7 @@ function runEnter() {
     // Clears table before displaying filtered data
     tableBody.html("");
 
-    // Filters data based filter search
+    // Filters data based filter search, uses filter with arrow function and exercise 14/2/8
     var filteredData = sightings.filter(sighting => sighting.datetime == inputValue);
     filteredData.forEach((UFOSighting) => {
         // Append the table based on filtered data
